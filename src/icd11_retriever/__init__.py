@@ -1,1 +1,1 @@
-from .ICD11_Retriever import *
+from .icd11_retriever import *

@@ -1,7 +1,7 @@
 [project]
-name = "app-name"
+name = "icd11_retriever"
 version = "0.1.0"
-description = "A beautiful description."
+description = "A package to retrieve ICD-11 data and manage hierarchy"
 authors = [
   {name = "CMI DAIR", email = "dair@childmind.org"}
 ]
@@ -49,3 +49,7 @@ convention = "google"
 [build-system]
 requires = ["uv_build>=0.9.3,<0.10.0"]
 build-backend = "uv_build"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
